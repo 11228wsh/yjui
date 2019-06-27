@@ -1,0 +1,64 @@
+{
+  "name": "yjui",
+  "version": "1.1.0",
+  "description": "yjui组件",
+  "main": "lib/yjui.umd.min.js",
+  "keyword": "yjui",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name yjui --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "element-ui": "^2.9.2",
+    "highlight.js": "^9.12.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-container": "^2.0.0",
+    "vue": "^2.5.17",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-router": "^3.0.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "css-loader": "^3.0.0",
+    "node-sass": "^4.9.3",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
