@@ -16,7 +16,7 @@
     "highlight.js": "^9.12.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.3.2",
     "markdown-it-container": "^2.0.0",
     "vue": "^2.5.17",
     "vue-markdown-loader": "^2.4.1",
